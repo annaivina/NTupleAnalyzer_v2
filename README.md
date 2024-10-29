@@ -55,7 +55,7 @@ mkdir source run build
 
 asetup AnalysisBase 21.2.222,here in source directory 
 
-mv build $&& make ../source  and then cmake --build .
+cd build $&& make ../source  and then cmake --build .
 
 source $TestArea/../build/$AnalysisBase_PLATFORM/setup.sh
 
